@@ -141,12 +141,16 @@ make -j2
 ```bash
 # row-major 布局、7x7 矩陣
 ./matrix rows 7
+```
 ![image](https://github.com/xuanxxx2002/AOS_Project3/blob/main/image/image3.png)
 
+```bash
 # column-major 布局、8x8 矩陣
 ./matrix columns 8
+```
 ![image](https://github.com/xuanxxx2002/AOS_Project3/blob/main/image/image4.png)
 
+```bash
 # Z-curve 布局、8x8 矩陣
 ./matrix z_curve 8
 ```
