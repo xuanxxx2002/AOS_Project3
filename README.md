@@ -139,11 +139,13 @@ make -j2
 支援使用者選擇矩陣佈局（rows / columns / z_curve）：
 
 ```bash
-# row-major 布局、4x4 矩陣
-./matrix rows 4
+# row-major 布局、7x7 矩陣
+./matrix rows 7
+![image](https://github.com/xuanxxx2002/AOS_Project3/blob/main/image/image3.png)
 
 # column-major 布局、8x8 矩陣
 ./matrix columns 8
+![image](https://github.com/xuanxxx2002/AOS_Project3/blob/main/image/image4.png)
 
 # Z-curve 布局、8x8 矩陣
 ./matrix z_curve 8
@@ -157,6 +159,7 @@ cmake -S . -B build -DCMAKE_BUILD_TYPE=Debug
 cmake --build build --config Debug
 ctest --test-dir build -C Debug -V
 ```
+![image](https://github.com/xuanxxx2002/AOS_Project3/blob/main/image/image2.png)
 
 **測試結果：**
 - Tests: **289**
